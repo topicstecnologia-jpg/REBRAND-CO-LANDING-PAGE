@@ -39,10 +39,9 @@ export const Hero: React.FC = () => {
         
         <div className="flex flex-col items-center gap-6 max-w-5xl mx-auto mb-10">
           
-          {/* H1 Updated Text */}
+          {/* H1 Updated Text - Continuous line without <br> */}
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-medium text-white leading-[1.1] tracking-tight drop-shadow-2xl font-display">
-            Vamos te entregar em dois dias uma <br className="hidden md:block" />
-            máquina de atrair clientes qualificados
+            Vamos te entregar em dois dias uma máquina de atrair clientes qualificados
           </h1>
           
           {/* Replacement for Subtitle: Bullets */}
